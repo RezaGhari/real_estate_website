@@ -121,4 +121,4 @@ dmypy.json
 
 #settings and config.py
 /settings.py
-/config.py
+btre/config.py
