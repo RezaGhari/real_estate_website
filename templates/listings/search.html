@@ -24,11 +24,15 @@
                 <select name="state" class="form-control">
                   <option selected="true" disabled="disabled">State (All)</option>
                   {% for key, value in state_choices.items %}
+<<<<<<< HEAD
                       <option value="{{key}}"
                       {% if key == values.state %}
                         selected
                       {% endif %}
                       >{{value}}</option>
+=======
+                      <option value="{{key}}">{{value}}</option>
+>>>>>>> 62a89488022ae1c9ccf92ae431ae8089fbb2063f
                     {% endfor %}
                 </select>
               </div>
