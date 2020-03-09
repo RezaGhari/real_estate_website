@@ -123,3 +123,4 @@ dmypy.json
 #settings and config.py
 /settings.py
 btre/config.py
+.vscode/
